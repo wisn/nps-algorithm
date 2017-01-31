@@ -9,7 +9,7 @@ function searchPattern($pattern = "", $text = "")
     for($j = 0; $j < $m; $j++)
       if($text[$i + $j] != $pattern[$j]) break;
 
-    if($j == $m) echo "Pattern ada di index ke-" . $i . "\n";
+    if($j == $m) echo "Pattern match starting at index " . $i . "\n";
   }
 }
 

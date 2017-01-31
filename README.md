@@ -1,2 +1,6 @@
 # nps-algorithm
-Naive Pattern Searching Algoritmh
+Naive Pattern Searching Algorithm
+
+## Implementation
+- [PHP](nps.php)
+
